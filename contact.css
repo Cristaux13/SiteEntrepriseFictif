@@ -1,0 +1,364 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #EEEEEE;
+}
+
+.barreNav {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    height: 80px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+#LogoEntreprise {
+    z-index: 100;
+    position: fixed;
+    left: 3%;
+    top: 2%;
+    width: 100px;
+    height: 100px;
+}
+
+.listeNav {
+    margin: 5px;
+    position: fixed;
+    z-index: 10;
+    border: 2px inset blue;
+    border-radius: 50px;
+    background-color: white;
+    width: 800px;
+    align-items: center;
+    margin-bottom: 10px;
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.listeNav > li {
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.listeNav > li > a {
+    text-decoration: none;
+    color: #494949;
+}
+
+.listeNav > .contour {
+    border-right: 2px solid #EEEEEE;
+}
+
+.listeNav > li:hover {
+    background-color: #A0A0A0;
+    transition: background-color 0.5s;
+
+}
+
+.listeNav > #Contact > a {
+    color: #4070F4;
+}
+
+
+
+
+
+
+.principal-bloc {
+    background-color: white;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 60px;
+}
+
+.intro-contact {
+    margin:  40px;
+    height: auto;
+    border: none;
+    border-bottom: 2px inset blue;
+    font-family: 'roboto_condensedregular';
+}
+
+.intro-contact > h1 {
+    padding: 30px;
+    font-size: 40px;
+}
+
+.intro-contact > p {
+    width: 60%;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    font-size: 20px;
+}
+
+
+
+.titre-form {
+    font-family: 'roboto_condensedregular';
+    padding-left: 60px;
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+
+
+.section1 {
+    background-color: #EEEEEE;
+    width: 600px;
+    height: auto;
+    margin-right: 30%;
+    margin-left: auto;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+}
+
+.title-container {
+    border-radius: 25px;  
+    display: flex;
+    align-items: center;
+    background-color: #2355B2;
+    height: 200px;
+    width: 100%;
+}
+
+.title {
+    position: relative;
+    margin-left: 35%;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Helvetica';
+}
+
+.texte-champs {
+    margin: 40px 0;
+    font-size: 12px;
+    font-family: 'Helvetica';
+
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px 10px;
+    margin-top: 30px;
+}
+
+.champs {
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+}
+
+.titre-champs {
+    font-size: 14px;
+    font-family: 'Helvetica';
+    color: #4070F4;
+}
+
+.content-champs {
+    background-color: #EEEEEE;
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+
+}
+
+label > span {
+    display: inline;
+    color: red;
+
+}
+
+
+
+.container-button {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: 150px;
+    width: 100%;
+}
+
+.button {
+    margin-top: 50px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px inset blue;
+    background: linear-gradient(120deg, blue, white);
+}
+
+.button:hover {
+    margin-top: 50px;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px inset blue;
+    background: blue;
+    cursor: pointer;
+}
+
+
+
+
+.separation {
+    margin:  40px;
+    height: auto;
+    border: none;
+    border-bottom: 2px inset blue;
+    font-family: 'roboto_condensedregular';
+}
+
+
+
+.section2 {
+    background-color: #EEEEEE;
+    width: 600px;
+    height: auto;
+    margin-right: 30%;
+    margin-left: auto;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+}
+
+.section3 {
+    background-color: #EEEEEE;
+    width: 600px;
+    height: auto;
+    margin-right: 30%;
+    margin-left: auto;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    height: 400px;
+    width: 100%;
+    background-color: #2355B2;
+    border-radius: 25px 25px 0 0;
+}
+
+.footer-section {
+    position: relative;
+    width: 400px;
+    margin: 20px;
+    align-items: center;
+}
+
+.title-footer {
+    color: white;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 20px;
+
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Helvetica';
+}
+
+.element-footer {
+    color: white;
+    position: relative;
+    display: flex;
+    top: 30%;
+    margin-top: 10px;
+    margin-left: 20%;
+
+    font-size: 14px;
+    font-family: 'Helvetica';
+
+}
+
+@media screen and (max-width: 1200px) {
+    .barreNav {
+        height: 110px;
+    }
+    
+    .listeNav {
+        width: 600px;
+    }
+    
+    .section1 {
+        background-color: #EEEEEE;
+        width: 400px;
+        height: auto;
+        margin-right: 30%;
+        margin-left: auto;
+        margin-top: 40px;
+        margin-bottom: 15px;
+        border-radius: 25px;
+    }
+
+    .title {
+        position: relative;
+        margin-left: 30%;
+        color: white;
+        font-size: 25px;
+        font-weight: bold;
+        font-family: 'Helvetica';
+    }
+
+    .section2 {
+        background-color: #EEEEEE;
+        width: 400px;
+        height: auto;
+        margin-right: 30%;
+        margin-left: auto;
+        margin-top: 40px;
+        margin-bottom: 15px;
+        border-radius: 25px;
+    }
+    
+    .section3 {
+        background-color: #EEEEEE;
+        width: 400px;
+        height: auto;
+        margin-right: 30%;
+        margin-left: auto;
+        margin-top: 40px;
+        margin-bottom: 15px;
+        border-radius: 25px;
+    }
+    
+}

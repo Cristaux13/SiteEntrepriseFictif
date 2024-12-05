@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <title>ImprimaTech website</title>
+    <link rel="shortcut icon" type="image/png" href="./Images/ImprimaTech.png" >
+    <link rel="stylesheet" href="./contact.css">
+  </head>
+  <body>
+    <nav class="barreNav">
+      <a href="index.html"><img id="LogoEntreprise" src="./Images/ImprimaTech.png" alt="ImprimaTech"></a>
+      <ul class="listeNav">
+        <li class="contour" id="Accueil"><a href="./index.html">Acceuil</a></li>
+        <li class="contour" id="Impression"><a href="./impression.html">Nos produits</a></li>
+        <li class="contour" id="Contact"><a href="./contact.html">Contact</a></li>
+        <li id="aPropos"><a href="./about.html">À propos</a></li>
+      </ul>
+    </nav>
+
+
+
+    <div class="principal-bloc">
+      <div class="intro-contact">
+        <h1>Nous contacter</h1>
+        
+        <p>Vous souhaitez obtenir des informations supplémentaires sur nos activités, émettre une réclamation, nous faire part de vos suggestions, imprimer vos pièces, 
+          demander un devis ou de votre expérience de visite, contactez-nous en complétant le formulaire adéquat.<p>
+          
+        <p>Le temps d'attente de nos réponses varient en fonction de la période. Nous pouvons d'ores et déjà vous garantir une réponse moyenne sous 15 jours.</p>
+        
+      </div>
+    
+      
+
+      <h1 id="titre-form-contact" class="titre-form">Formulaire de contact</h1>
+
+      <div class="section1">
+        <div class="title-container">
+          <p class="title">Contactez nous</p>
+        </div>
+
+        <div>
+          <p class="texte-champs">Les champs marqués d'un * sont obligatoires.</p>
+        </div>
+
+        <form method="POST" action="https://dwarves.iut-fbleau.fr/requete.php">
+          <div class="content">
+
+            <div class="champs">
+                <label for="Prénom-contact" class="titre-champs">Prénom <span>*</span></label>
+                <input type="text" id="Prénom-contact" maxlength="20" size="30"  required class="content-champs">
+            </div>
+
+            <div class="champs">
+                <label for="nom-contact" class="titre-champs">Nom <span>*</span></label>
+                <input type="text" id="nom-contact" maxlength="30" size="30" required class="content-champs">
+            </div>
+
+            <div class="champs">
+                <label for="email-contact" class="titre-champs">Email <span>*</span></label>
+                <input type="email" id="email-contact" required class="content-champs">
+            </div>
+
+
+
+            <div class="champs">
+                <label for="object-select-contact" class="titre-champs">Objet <span>*</span></label>
+
+                <select name="object" id="object-select-contact" class="content-champs" required>
+                  <option value="">Choisissez une option</option>
+                  <option value="question">Question</option>
+                  <option value="Partenaire">Partenaire</option>
+                  <option value="Impression">Impression</option>
+                  <option value="Job">Jobs</option>
+                </select>
+            </div>
+
+            <div class="champs">
+                <label for="file-contact" class="titre-champs">Choisissez votre fichier</label>
+                <input type="file" id="file-contact" name="fichier" accept="image/png, image/jpeg" class="content-champs" multiple>
+            </div>
+
+
+            <div class="champs">
+                <label for="message-contact" class="titre-champs">Message <span>*</span></label>
+                <textarea id="message-contact" name="message" rows="10" cols="33" required></textarea>
+            </div>
+          </div>
+
+          <div class="container-button">
+            <input class="button" type="submit">
+            <input class="button" type="reset">
+          </div>
+        </form>
+    </div>
+
+    <div class="separation"></div>
+
+
+
+
+
+
+    <h1 id="titre-form-impressionAvecModele" class="titre-form">Impression 3D avec modèle 3D</h1>
+    <div class="section2">
+      <div class="title-container">
+        <p class="title">Impression 3D</p>
+      </div>
+
+      <div>
+        <p class="texte-champs">Les champs marqués d'un * sont obligatoires.</p>
+      </div>
+
+      <form method="POST" action="https://dwarves.iut-fbleau.fr/requete.php">
+        <div class="content">
+
+          <div class="champs">
+              <label for="Prénom-modele" class="titre-champs">Prénom <span>*</span></label>
+              <input type="text" id="Prénom-modele" maxlength="20" size="30"  required class="content-champs">
+          </div>
+
+          <div class="champs">
+              <label for="nom-modele" class="titre-champs">Nom <span>*</span></label>
+              <input type="text" id="nom-modele" maxlength="30" size="30" required class="content-champs">
+          </div>
+
+          <div class="champs">
+              <label for="email-modele" class="titre-champs">Email <span>*</span></label>
+              <input type="email" id="email-modele" required class="content-champs">
+          </div>
+
+
+
+          <div class="champs">
+              <label for="quantite-modele" class="titre-champs">Quantitée <span>*</span></label>
+              <input type="number" id="quantite-modele" min="1" max="500"  required class="content-champs">
+          </div>
+
+          <div class="champs">
+              <label for="file-modele" class="titre-champs">Choisissez votre modèle <span>*</span></label>
+              <input type="file" id="file-modele" name="fichier" accept=".stl" class="content-champs" required>
+          </div>
+
+
+          <div class="champs">
+            <label for="object-select-modele" class="titre-champs">Matériaux <span>*</span></label>
+
+            <select name="object" id="object-select-modele" class="content-champs" required>
+              <option value="">Choisissez une option</option>
+              <option value="question">Nylon</option>
+              <option value="Partenaire">Polycarbonate</option>
+              <option value="Impression">Polyactide</option>
+              <option value="Job">Acrylonitrile butadiène styrène</option>
+              <option value="question">PVA</option>
+              <option value="Partenaire">ASA</option>
+              <option value="Impression">TPU</option>
+              <option value="Job">HIPS</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="container-button">
+          <input class="button" type="submit">
+          <input class="button" type="reset">
+        </div>
+      </form>
+    </div>
+
+
+    <div class="separation"></div>
+
+
+
+
+
+
+    <h1 id="titre-form-impressionSansModele" class="titre-form">Impression 3D sans modèle 3D</h1>
+    <div class="section3">
+      <div class="title-container">
+        <p class="title">Obtenir un devis</p>
+      </div>
+
+      <div>
+        <p class="texte-champs">Les champs marqués d'un * sont obligatoires.</p>
+      </div>
+
+      <form method="POST" action="https://dwarves.iut-fbleau.fr/requete.php">
+        <div class="content">
+
+          <div class="champs">
+              <label for="Prénom-notmodele" class="titre-champs">Prénom <span>*</span></label>
+              <input type="text" id="Prénom-notmodele" maxlength="20" size="30"  required class="content-champs">
+          </div>
+
+          <div class="champs">
+              <label for="nom-notmodele" class="titre-champs">Nom <span>*</span></label>
+              <input type="text" id="nom-notmodele" maxlength="30" size="30" required class="content-champs">
+          </div>
+
+          <div class="champs">
+              <label for="email-notmodele" class="titre-champs">Email <span>*</span></label>
+              <input type="email" id="email-notmodele" required class="content-champs">
+          </div>
+
+
+
+          <div class="champs">
+              <label for="quantite-notmodele" class="titre-champs">Quantitée <span>*</span></label>
+              <input type="number" id="quantite-notmodele" min="1" max="500"  required class="content-champs">
+          </div>
+
+          <div class="champs">
+            <label for="message-notmodele" class="titre-champs">Donnez votre idée <span>*</span></label>
+            <textarea id="message-notmodele" name="message" rows="10" cols="33" required></textarea>
+          </div>
+
+
+          <div class="champs">
+            <label for="object-select-notmodele" class="titre-champs">Matériaux</label>
+
+            <select name="object" id="object-select-notmodele" class="content-champs">
+              <option value="">Choisissez une option</option>
+              <option value="question">Nylon</option>
+              <option value="Partenaire">Polycarbonate</option>
+              <option value="Impression">Polyactide</option>
+              <option value="Job">Acrylonitrile butadiène styrène</option>
+              <option value="question">PVA</option>
+              <option value="Partenaire">ASA</option>
+              <option value="Impression">TPU</option>
+              <option value="Job">HIPS</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="container-button">
+          <input class="button" type="submit">
+          <input class="button" type="reset">
+        </div>
+      </form>
+
+    </div>
+
+
+  </div>
+
+
+
+  <div class="footer">
+      <div class="footer-section" id="pages-footer">
+      <h1 class="title-footer">NOS PAGES</h1>
+      <a href="index.html" class="element-footer">Accueil</a>
+      <a href="impression.html"   class="element-footer">Nos produits</a>
+      <a href="about.html" class="element-footer">À propos de nous</a>
+      <a href="contact.html" class="element-footer">Contact</a>
+    </div>
+
+    <div class="footer-section" id="about-footer">
+      <h1 class="title-footer">NOUS CONCERNANT</h1>
+      <p class="element-footer">Date de création : 21 Mars 2023</p>
+      <p class="element-footer">Nos fondateurs : Christopher Dubreuil et Kaim Abdou Moegni</p>
+    </div>
+
+    <div class="footer-section" id="networks">
+      <h1 class="title-footer">NOS RÉSEAUX SOCIAUX</h1>
+      <a class="element-footer" href="https://twitter.com/">Twitter</a>
+      <a class="element-footer" href="https://www.instagram.com/">Instagram</a>
+    </div>
+
+  </div>
+    
+  </body>
+</html>
