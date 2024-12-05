@@ -2,7 +2,7 @@
 
 ## Introduction 
 
-Ce projet web du semestre 1 de ma formation BUT Informatique à l'IUT de Sénart-Fontainebleau consistait en la création d'un site internet pour une entreprise fictif. Nous devions utiliser uniquement du HTML/CSS pour réaliser ce site.
+Ce projet web du semestre 1 de ma formation BUT Informatique à l'IUT de Sénart-Fontainebleau consistait en la création du site internet pour une entreprise fictif. Nous devions utiliser uniquement HTML/CSS pour réaliser ce site.
 
 Nous devions aussi imaginer le concept de l'entreprise en s'assurant d'être cohérent.
 
