@@ -8,7 +8,7 @@ Nous devions aussi imaginer le concept de l'entreprise en s'assurant d'être coh
 
 Ce projet a été réaliser avec l'aide de 2 camarades, **Kaim Abdou Moegni** et **Théo Malbranche**.
 
-Suite à cette réalisation, nous devions présenter le site en imaginant que les personnes qui nous écoutaient était nos clients ou de futurs utilisateurs.
+Suite à cette réalisation, nous devions présenter le site en imaginant que les personnes qui nous écoutaient étaient nos clients ou de futurs utilisateurs.
 
 ## Choix de l'entreprise fictif
 
