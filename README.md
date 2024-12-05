@@ -22,5 +22,5 @@ Idée : Christopher Dubreuil, Kaim Abdou Moegni, Théo Malbranche
 
 ## Note
 
-Site côté développeur (Code, évalué par notre professeur de développement web ) : 15.50/20
+Site côté développeur (Code, évalué par notre professeur de développement web ) : 15.50/20.
 Site côté utilisateur (Présentation, évalué par notre professeure d'expression et communication ): 17/20
